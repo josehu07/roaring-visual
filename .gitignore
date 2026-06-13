@@ -1,0 +1,19 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+build/
+
+# Rust benchmark harness build artifacts
+data/target/
+
+# Caches
+.vite/
+.DS_Store
+npm-debug.log*
+
+# Editor
+.idea/
+.vscode/
+*.swp
