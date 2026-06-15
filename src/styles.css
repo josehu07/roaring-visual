@@ -1204,6 +1204,10 @@ code.tli__key {
   text-align: center;
 }
 
+.bench-env__source {
+  margin-top: 6px;
+}
+
 .bench-env__link {
   color: var(--accent-strong);
   font-family: var(--font-mono);

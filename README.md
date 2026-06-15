@@ -62,3 +62,7 @@ The files in `src/data/` are generated from the raw benchmark results in
 `data/` by the scripts in `scripts/`. See [data/README.md](data/README.md) for
 how the benchmarks are run and regenerated. You do not need the Rust toolchain
 to build or run the website.
+
+## Raw Data & Reproduction
+
+Everything you'd need is under the `data/` subfolder.

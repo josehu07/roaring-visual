@@ -55,7 +55,7 @@ interface Tab {
 const TABS: Tab[] = [
   {
     id: 'structure',
-    label: 'Data Structures',
+    label: 'Data Structure',
     render: () => <RoaringStructure />,
   },
   {

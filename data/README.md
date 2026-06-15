@@ -17,11 +17,7 @@ plus the Rust harness that produces them.
 - `ROARING_VERSION.txt` — the exact `roaring` crate version the data was
   produced with, and the statistics fields captured per bitmap.
 
-## Regenerating the raw data (optional)
-
-Running the benchmarks is only needed to reproduce or extend the measurements.
-It is not required to build or run the website — the generated TypeScript under
-`../src/data/` is the runtime source of truth.
+## Running the microbenchmarks
 
 Each binary takes a distribution on the command line and writes JSONL to
 stdout:
@@ -33,11 +29,11 @@ cargo run --release --bin ops_bench    -- zipf 1.0     > ops-bench/zipf_s1.0_ops
 cargo run --release --bin lookup_bench -- block 64     > lookup-bench/blockC64_lookup.jsonl
 ```
 
-Distributions: `uniform`, `zipf <s>`, `block <c>`.
+Distributions: `uniform`, `zipf <s>`, `block <c>`. Meaning of the latter two can be found on the website.
 
-## Turning raw data into site data
+## Raw data into site data
 
-The JSONL files do not auto-reflect into the app. After (re)generating them,
+The JSONL files do not auto-reflect into the app. After (re)producing them,
 rebuild the TypeScript modules consumed by the website:
 
 ```sh

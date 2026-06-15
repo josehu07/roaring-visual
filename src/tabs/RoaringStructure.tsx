@@ -113,7 +113,7 @@ export function RoaringStructure() {
                 crates.io/crates/roaring
               </a>
               <span className="doc__ref-meta">
-                — the Rust <code>roaring</code> crate used to produce
+                — the Rust <code>roaring</code> crate v0.11.4 used to produce
                 benchmark results.
               </span>
             </li>

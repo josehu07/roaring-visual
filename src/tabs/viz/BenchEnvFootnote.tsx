@@ -23,7 +23,19 @@ export function BenchEnvFootnote() {
         >
           roaring
         </a>{' '}
-        crate.
+        crate v0.11.4.
+        <div className="bench-env__source">
+          For raw data and microbenchmark code, check out the{' '}
+          <a
+            className="bench-env__link"
+            href="https://github.com/josehu07/roaring-visual/tree/main/data"
+            target="_blank"
+            rel="noreferrer"
+          >
+            source code
+          </a>{' '}
+          of this website.
+        </div>
       </div>
     </section>
   );
